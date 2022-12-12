@@ -9,21 +9,25 @@ const router = createRouter({
   routes: [
     {
       path: "/",
+      redirect: {name: 'home'}
+    },
+    {
+      path: "/CV_VueJS",
       name: "home",
       component: HomeView,
     },
     {
-      path: "/skills",
+      path: "/CV_VueJS/skills",
       name: "skills",
       component: SkillsView,
     },
     {
-      path: "/portfolio",
+      path: "/CV_VueJS/portfolio",
       name: "portfolio",
       component: PortfolioView,
     },
     {
-      path: "/contact",
+      path: "/CV_VueJS/contact",
       name: "contact",
       component: ContactView,
     }
