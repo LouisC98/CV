@@ -40,9 +40,7 @@ header {
 
 @media screen and (min-width: $tablet) {
     header {
-        position: sticky;
         padding: .5rem;
-        min-height: 8vh;
 
         .menu {
             display: inline !important;

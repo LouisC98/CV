@@ -1,6 +1,6 @@
 .skills {
     color: $white;
-    margin-bottom: 9vh;
+    margin-bottom: 10vh;
     .container {
         background-color: $black;
         padding: 1rem;
@@ -67,7 +67,7 @@
 
 @media screen and (min-width: $tablet) {
     .skills {
-        margin-bottom: 3vh;
+        padding-bottom: 3vh !important;
         .container {
             h3 {
                 &::after {

@@ -22,7 +22,7 @@ export default {
 </script>
 <template>
     <div class="col">
-        <div class="project card rounded h-100">
+        <div class="project card rounded h-100" @click="handleShowInfos()">
             <img :src="picture" alt="" class="card-img-top h-100">
             <div class="card-body">
                 <h3 class="card-title fw-bold">{{name}}</h3>
@@ -30,7 +30,7 @@ export default {
                     <div class="icons">
                         <i v-for="icon in languagesIcons" :class="icon" class="mx-1"></i>
                     </div>
-                    <button class="btn" @click="handleShowInfos()">
+                    <button class="btn">
                         <i class="fa-solid fa-plus"></i>
                     </button>
                 </div>
