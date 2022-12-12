@@ -6,7 +6,7 @@
       <h2 class="fullstack">Fullstack</h2>
     </div>
     <div class="download-btn mt-5">
-      <a href="/CV_Louis_Carvalho.pdf">Télécharger CV<i class="fa-solid fa-download"></i></a>
+      <a href="CV/CV_Louis_Carvalho.pdf">Télécharger CV<i class="fa-solid fa-download"></i></a>
     </div>
     <div class="socials d-flex justify-content-center my-5">
         <a href="https://www.linkedin.com/in/louis-carvalho/" class="linkedin">
