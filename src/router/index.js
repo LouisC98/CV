@@ -5,7 +5,7 @@ import PortfolioView from "../views/PortfolioView.vue";
 import ContactView from "../views/ContactView.vue";
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHistory('/CV_VueJS/'),
   routes: [
     {
       path: "/",
