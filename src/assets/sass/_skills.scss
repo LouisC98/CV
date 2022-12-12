@@ -1,0 +1,115 @@
+.skills {
+    color: $white;
+    margin-bottom: 9vh;
+    .container {
+        background-color: $black;
+        padding: 1rem;
+        border-radius: 10px;
+        box-shadow: 0px 0px 5px 1px $grey;
+        h3 {
+            font-weight: bold;
+            position: relative;
+
+            i {
+                color: $blue;
+                text-shadow: 0px 0px 10px $blue;
+                margin: 0 .5rem;
+            }
+            &::after {
+                position: absolute;
+                transition: .5s ease-in-out;
+                content: '';
+                width: 75%;
+                height: 2px;
+                border-radius: 50%;
+                bottom: 0;
+                left: 50%;
+                background-color: $white;
+                transform: translate(-50%, 600%);
+            }
+        }
+        li {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.3rem;
+            i {
+                margin: 0 .5rem;
+                color: $blue;
+                text-shadow: 0px 0px 15px $blue;
+            }
+        }
+        &:hover {
+            h3 {
+                text-shadow: 0px 0px 3px $white;
+            }
+        }
+    }
+    .competences, .degrees {
+        ul {
+            list-style-image: radial-gradient($blue, transparent, transparent);
+            li {
+                display: list-item;
+                margin-left: .5rem;
+                font-size: 1rem;
+                margin-top: .7rem;
+
+                p {
+                    color: $blue;
+                    margin: 0;
+                    font-size: 1rem;
+                    font-style: italic;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: $tablet) {
+    .skills {
+        margin-bottom: 3vh;
+        .container {
+            h3 {
+                &::after {
+                    width: 60%;
+                }
+            }
+            &:hover {
+                h3 {
+                    &::after {
+                        width: 85%;
+                        box-shadow: 0px 1px 5px 1px $blue;
+                        background-color: $blue;
+                        transition: .5s ease-in-out;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: $desktop) {
+    .skills {
+        display: flex;
+        flex-wrap: wrap;
+
+        .languages {
+            width: 30%;
+            ul {
+                margin-top: 2.5rem !important;
+            }
+        }
+        .competences {
+            width: 65%;
+        }
+        .degrees {
+            width: 65%;
+        }
+        .hobbies {
+            width: 30%;
+            ul {
+                margin-top: 2.5rem !important;
+            }
+        }
+    }
+}
