@@ -1,6 +1,4 @@
 <script>
-import axios from 'axios';
-
 export default {
   methods: {
     async downloadPdf() {
@@ -31,7 +29,7 @@ export default {
       <h2 class="fullstack">Fullstack</h2>
     </div>
     <div class="download-btn mt-5">
-      <button @click="downloadPdf('./CV_LOUIS_CARVALHO.pdf')">Télécharger CV<i class="fa-solid fa-download"></i></button>
+      <button @click="downloadPdf">Télécharger CV<i class="fa-solid fa-download"></i></button>
     </div>
     <div class="socials d-flex justify-content-center my-5">
         <a href="https://www.linkedin.com/in/louis-carvalho/" class="linkedin">
