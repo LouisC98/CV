@@ -67,7 +67,8 @@
 
 @media screen and (min-width: $tablet) {
     .skills {
-        padding-bottom: 3vh !important;
+        min-height: 85vh;
+        padding-bottom: 10vh !important;
         .container {
             h3 {
                 &::after {
