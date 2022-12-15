@@ -9,7 +9,7 @@ set -e
 cd dist
 
 # if you are deploying to a custom domain
-# echo 'www.example.com' > CNAME
+echo 'carvalho-louis.fr' > CNAME
 
 git init
 git add .
