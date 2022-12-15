@@ -1,3 +1,20 @@
+<script>
+export default {
+  methods: {
+  downloadPdf() {
+    const pdfUrl = '/CV_LOUIS_CARVALHO.pdf';
+
+    const a = document.createElement('a');
+
+    a.href = pdfUrl;
+
+    a.download = 'CV_LOUIS_CARVALHO.pdf';
+
+    a.click();
+  },
+},
+}
+</script>
 <template>
   <div class="home container-fluid text-center pt-1">
     <h1 class="name my-5">Carvalho Louis</h1>
@@ -6,7 +23,7 @@
       <h2 class="fullstack">Fullstack</h2>
     </div>
     <div class="download-btn mt-5">
-      <a href="/CV/CV_Louis_Carvalho.pdf" target="_blank" rel="noopener noreferrer">Télécharger CV<i class="fa-solid fa-download"></i></a>
+      <button @click="downloadPdf">Télécharger CV<i class="fa-solid fa-download"></i></button>
     </div>
     <div class="socials d-flex justify-content-center my-5">
         <a href="https://www.linkedin.com/in/louis-carvalho/" class="linkedin">

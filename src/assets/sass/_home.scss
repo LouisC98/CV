@@ -23,7 +23,7 @@
     }
     
     .download-btn {
-        a{
+        button{
             transition: .5s ease-in-out;
             padding: .5rem;
             background-color: $blue;
@@ -38,7 +38,6 @@
                 transition: .5s ease-in-out;
                 font-weight: bold;
                 letter-spacing: .1rem;
-                font-size: 1.5rem;
             }
 
             i {
@@ -77,11 +76,10 @@
 
         .download-btn {
             margin-top: 5rem !important;
-            a{
+            button{
                 font-size: 2rem;
                 &:hover {
-                    font-size: 2rem;
-                    transform: scale(1.2);
+                    transform: scale(1.1);
                 }
             }
         }
