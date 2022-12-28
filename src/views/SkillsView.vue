@@ -57,13 +57,17 @@
       </h3>
       <ul class="p-0 m-0 mt-4">
           <li>
-              Titre professionnel Développeur Web et Web mobile (en attentes du résultat)
-              <p>12/2021 - 10/2022 <span>Formation AFPA</span>  en distanciel</p>
+              Titre professionnel Développeur Web et Web mobile
+              <p>12/2021 - 10/2022 Formation AFPA en distanciel</p>
           </li>
           
           <li>
               Licence Sciences pour la santé
               <p>09/2018 - 07/2020, Université de La Rochelle (17)</p> 
+          </li>
+          <li>
+              Première année commmune aux études de santé (PACES)
+              <p>09/2016 - 07/2018, Université de Poitiers (86)</p> 
           </li>
           <li>
               Baccalauréat scientifiques option Sciences du numériques
