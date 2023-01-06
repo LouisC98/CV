@@ -6,7 +6,8 @@ export default {
         'languages', 
         'languagesIcons', 
         'infos', 
-        'picture'
+        'picture',
+        'link'
     ],
     data() {
         return {
@@ -43,7 +44,8 @@ export default {
             <p>{{infos}}</p>
             <i class="fa-solid fa-circle-xmark" @click="handleShowInfos()"></i>
             <div class="text-center">
-                <a :href="source">Code source</a>
+                <a v-if="source" :href="source" target="_blank">Code source</a>
+                <a v-if="link" :href="link" target="_blank">Site web</a>
             </div>
         </div>
     </div>

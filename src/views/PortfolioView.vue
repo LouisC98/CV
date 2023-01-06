@@ -43,6 +43,7 @@ export default {
                 :source="project.source"
                 :infos="project.infos"
                 :picture="project.picture"
+                :link="project.link"
             />
         </div>
     </div>
