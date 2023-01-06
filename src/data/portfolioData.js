@@ -5,7 +5,7 @@ const projectData = [
         languages: ['all','vuejs','php', 'symfony'],
         languagesIcons: ['fa-brands fa-php', 'fa-brands fa-symfony', 'fa-brands fa-vuejs'],
         // source: 'https://github.com/LouisC98/solrenov17',
-        infos: `Site web PHP Symfony réalisé dans le cadre d'un stage de formation DWWM auprès d'un artisan solier moquettiste. Disponible sur : solrenov17.fr`,
+        infos: `Site web PHP Symfony réalisé dans le cadre d'un stage de formation DWWM auprès d'un artisan solier moquettiste.`,
         picture: './images/solrenov17.jpg',
         link: "https://www.solrenov17.fr"
     },
