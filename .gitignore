@@ -14,7 +14,7 @@ dist-ssr
 coverage
 *.local
 
-deploy.sh
+deploy.sh*
 
 /cypress/videos/
 /cypress/screenshots/
