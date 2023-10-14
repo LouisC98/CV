@@ -7,11 +7,18 @@
       </h3>
       <ul class="p-0 m-0 mt-4">
         <li>
-          <i class="fa-brands fa-html5"></i> HTML |
-          <i class="fa-brands fa-css3-alt"></i> CSS
+          <i class="fa-brands fa-wordpress"></i> Wordpress
+        </li>
+        <li>
+          <i class="fa-brands fa-php"></i> PHP | 
+          <i class="fa-brands fa-symfony"></i> Symfony
         </li>
         <li>
           <i class="fa-brands fa-square-js"></i> Javascript
+        </li>
+        <li>
+          <i class="fa-brands fa-html5"></i> HTML |
+          <i class="fa-brands fa-css3-alt"></i> CSS
         </li>
         <li>
           <i class="fa-brands fa-sass"></i> Sass
@@ -20,17 +27,10 @@
           <i class="fa-brands fa-bootstrap"></i> Bootstrap
         </li>
         <li>
-          <i class="fa-brands fa-node-js"></i> NodeJS
-        </li>
-        <li>
-          <i class="fa-brands fa-php"></i> PHP | 
-          <i class="fa-brands fa-symfony"></i> Symfony
-        </li>
-        <li>
           <i class="fa-solid fa-database"></i> MySQL
         </li>
         <li>
-          <i class="fa-brands fa-wordpress"></i> Wordpress
+          <i class="fa-brands fa-node-js"></i> NodeJS
         </li>
       </ul>
     </div>
@@ -57,7 +57,7 @@
       </h3>
       <ul class="p-0 m-0 mt-4">
           <li>
-              Titre professionnel Développeur Web et Web mobile
+              Titre professionnel niveau 5 - Développeur Web et Web mobile 
               <p>12/2021 - 10/2022 Formation AFPA en distanciel</p>
           </li>
           
@@ -80,7 +80,7 @@
         Hobbies
         <i class="fa-solid fa-face-laugh"></i>
       </h3>
-      <ul class="p-0 m-0 mt-4">
+      <ul class="p-0 m-0">
           <li><i class="fa-solid fa-dumbbell"></i> Sport</li>
           <li><i class="fa-solid fa-laptop-code"></i> Informatique</li>
           <li><i class="fa-solid fa-gamepad"></i> Jeux-vidéos</li>

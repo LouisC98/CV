@@ -45,6 +45,13 @@
             }
         }
     }
+
+    .hobbies {
+        ul {
+            margin-top: 1.5em !important;
+        }
+    }
+
     .competences, .degrees {
         ul {
             list-style-image: radial-gradient($blue, transparent, transparent);
@@ -108,8 +115,12 @@
         }
         .hobbies {
             width: 30%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+    
             ul {
-                margin-top: 2.5rem !important;
+                transform: translateY(-50%);
             }
         }
     }

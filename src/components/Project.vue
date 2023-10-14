@@ -38,10 +38,10 @@ export default {
             </div>
         </div>
     </div>
-    <div v-if="showInfos" class="showInfos">
+    <div v-if="showInfos" class="showInfos" @click.prevent.self="handleShowInfos()">
         <div class="container">
             <h3>{{name}}</h3>
-            <p>{{infos}}</p>
+            <p v-for="info in infos">{{info}}</p>
             <i class="fa-solid fa-circle-xmark" @click="handleShowInfos()"></i>
             <div class="text-center">
                 <a v-if="source" :href="source" target="_blank">Code source</a>
